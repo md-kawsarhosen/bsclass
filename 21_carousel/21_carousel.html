@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <title>Carousel Slider | Bootstrap 4</title>
+</head>
+<body>
+  <h1 class="display-4 text-center my-4">Carousel Slider</h1>
+  <div class="container">
+    <!--########################START HERE#########################-->
+
+    <!-- SLIDER -->
+   <div id="slider1" class="carousel slide carousel-fade" data-ride="carousel">
+      <ol class="carousel-indicators">
+          <li data-target="#slider1" data-slide-to="0" class="active"></li>
+          <li data-target="#slider1" data-slide-to="1"></li>
+          <li data-target="#slider1" data-slide-to="2"></li>
+      </ol>
+       <div class="carousel-inner">
+           <div class="carousel-item active" data-bs-interval="1000">
+               <img src="img/a.jpg" class="d-block img-fluid" alt="slide1">
+               <div class="carousel-caption">
+                   <h3>Night Merror</h3>
+                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium, suscipit!</p>
+               </div>
+           </div>
+           <div class="carousel-item" data-bs-interval="4000">
+               <img src="img/b.jpg" class="d-block img-fluid" alt="slide2">
+               <div class="carousel-caption d-none d-md-block">
+                   <h3>Sigger</h3>
+                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, laborum.</p>
+               </div>
+           </div>
+           <div class="carousel-item">
+               <img src="img/c.jpg" class="d-block img-fluid" alt="slide3">
+           </div>
+       </div>
+       <a class="carousel-control-prev" data-slide="prev" href="#slider1">
+           <span class="carousel-control-prev-icon"></span>
+       </a>
+       <a class="carousel-control-next" data-slide="next" href="#slider1">
+           <span class="carousel-control-next-icon"></span>
+       </a>
+   </div> 
+    
+    
+
+
+  </div>
+
+  <div style="margin-top:500px;"></div>
+
+  <script src="js/jquery-slim.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+
+  
+</body>
+</html>
